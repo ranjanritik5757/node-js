@@ -1,0 +1,12 @@
+---Make basic server---
+
+const http = require('node:http');
+http.createServer((req,resp) =>{
+    resp.write("Hello");
+    resp.end();
+}).listen(4000);
+
+interview question :
+request and response ko konsa module handle karta h 
+http module
+

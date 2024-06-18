@@ -1,0 +1,20 @@
+What are core modules or modules
+-> every programming langauges has some basic features , such as connecting databases , creating files , creating APIs , processing code , these are called core modules 
+because they are present by default in the language .
+example : fs(file system) , Buffer , HTTP
+
+What global modules 
+-> The module which arent required to be imported from somewhere , like console.log("hello") , we did not import it from somewhere , we just simply used it.
+
+non global modules
+-> files that need to be imported 
+
+console.log(__dirname) is used to know in which directory we are currently in
+console.log(__filename) is used to know the file name
+
+const fs = require('fs');
+importing file system module
+
+INTERVIEW QUESTION
+require('fs') imports the whole file system module which is very big , so we can simply call an individual functions as well
+ans : const fs = require('fs').func;

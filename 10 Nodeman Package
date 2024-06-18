@@ -1,0 +1,23 @@
+What is NodeMan Package
+nodemon continously runs the node project and we need not to manually run the project each time.
+
+how to install nodemon in a particular folder
+npm i nodemon 
+
+how to install nodemon globally in the entire system , like we need not to continously install it in each folder or project.
+npm i nodemon -g
+
+------------------
+BONUS : if nodemon is not working , go to developer settings and then  check the box beside change execution policy to allow local powershell scripts to run without signing
+------------------
+
+TO RUN CODE : nodemon filename , after using nodemon , not node filename
+
+INTERVIEW QUESTION
+-> Node JS is ASYNC LANGUAGE and SINGLE THREADED
+-> what is sync and async language 
+   sync language means , when the code is executedd , it is executed line by line , like the 3rd line would only be executed after the completion of the 
+   2nd line , 3rd line would wait to be executed after the 2nd line is executed .
+   But async language means , it would not wait for the completion of the execution of the 2nd line , it would start executing the 3rd line and whenever 
+   the 2nd line's execution is completed , then it gives the output but it never waits . Thats why JAVASCRIPT/NODEJS is such a fast language because its an 
+   async language.
